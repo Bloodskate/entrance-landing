@@ -1,3 +1,5 @@
+
+
 /*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
 
 /*
@@ -116,6 +118,32 @@ body, h1, h2, h3, h4, h5, h6, .button, input[type="button"], input[type="submit"
 html, body, h1, h2, h3, h4, h5, h6, p, div, a{
 	font-family: 'Roboto', sans-serif;
 }
+.col-sm-6{
+    color: aquamarine;
+    
+}
+.imac{
+   float: left;
+    height: 550px;
+    margin: 0px 80px 0 70px; 
+}
+.col-sm-6 img{
+	float: left;
+    height: 550px;
+    margin: 0px 80px 0 70px;
+}
+.col-sm-6 h2{
+	line-height: 50px;
+	color: #ffffff;
+	font-size: 36px;
+}
+.col-sm-6 p{
+	color: #fff;
+	font-size: 24px;
+	font-family: Arial, sans-serif;
+	line-height: 48px;
+	vertical-align: middle;
+}
 .clear-top{
 	height: 60px;
 	width: 100%;
@@ -166,7 +194,7 @@ img{
 	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
 	font-size: 2.2em;
-	color: #fff;
+	color: red;
 	line-height: 60px;
 }
 #header .navbar-toggle, #header .nav {
@@ -371,6 +399,7 @@ img{
     transition: color .2s;
     
 }
+
 #slider .carousel-control:hover,
 #slider .corousel-control:focus{
 	font-size: 1.5em;
@@ -849,20 +878,20 @@ img{
 #why .modern h2{
 	color: #444e5d;
 	font-size: 36px;
-	font-family: 'Roboto', sans-serif;
+	/*font-family: 'Georgia', sans-serif;*/
 	font-style: normal;
 }
 #why .modern h1{
 	color: #323a45;
 	font-size: 36px;
-	font-family: 'Roboto', sans-serif;
+	/*font-family: 'Georgia', sans-serif;*/
 	font-style: normal;
 	margin-bottom: 56px;
 }	
 #why .modern p{
 	color: #4c5662;
 	font-size: 26px;
-	font-family: 'Roboto', sans-serif;
+	/*font-family: 'Roboto', sans-serif;*/
 	line-height: 34px;
 }
 #why .modern hr{
@@ -892,7 +921,7 @@ img{
 #why .list_item ul li a{
 	color: #4c5662;
 	font-size: 24px;
-	font-family: 'Roboto',sans-serif;
+	/*font-family: 'Roboto',sans-serif;*/
 	text-decoration: none;
 	letter-spacing: 0px;
 	line-height: 47px;
