@@ -868,32 +868,35 @@ img{
 
 
 /* start Mobile description */
+#small{
+     height: 550px;
+     margin: 0px 80px 0 70px; 
+}
 #why .container-full{
 	background: #f2f2f2;
 	
 }
 #why .modern, .phone{
-     height: 550px;
-     margin: 0px 80px 0 70px; 
-	margin-top: 24px;
+ margin-top: 24px;   
 }
 #why .modern h2{
+    line-height: normal;
 	color: #444e5d;
 	font-size: 36px;
-	/*font-family: 'Georgia', sans-serif;*/
+	font-family: 'Georgia', sans-serif;
 	font-style: normal;
 }
 #why .modern h1{
 	color: #323a45;
 	font-size: 36px;
-	/*font-family: 'Georgia', sans-serif;*/
+	font-family: 'Georgia', sans-serif;
 	font-style: normal;
 	margin-bottom: 56px;
 }	
 #why .modern p{
 	color: #4c5662;
 	font-size: 26px;
-	/*font-family: 'Roboto', sans-serif;*/
+	font-family: 'Roboto', sans-serif;
 	line-height: 34px;
 }
 #why .modern hr{
